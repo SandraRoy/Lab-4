@@ -14,6 +14,6 @@ public class EquipmentTest
 	{
 		Equipment display=new Equipment("Batarang/5,3.22,700.06,bat-shaped boomerang");
 		String expected="Name: Batarang, Number: 5, Weight: 3.22 lbs, Price: $700.75 - bat-shaped boomerangs";
-		Assert.assertEquals(expected, display.toString());
+		Assert.assertEquals(expected.equals(display.toString()));
 	}
 }
